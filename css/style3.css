@@ -1,0 +1,28 @@
+html,body{
+    display: grid;
+    height: 100%;
+    width: 100%;
+    place-items: center;
+    background-image: url("./image/bg3.jpg");
+    /*opacity: 0;*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    line-height: 0px;
+
+}
+.head{
+    font-family: "Brush Script MT", cursive;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 80px;
+}
+.btn{
+    margin: auto;
+    font-family: "Brush Script MT", cursive;
+    font-size: 100px;
+    color: rgba(255, 255, 255, 0.6);
+
+
+
+}
+

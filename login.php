@@ -23,7 +23,7 @@ if(isset($_POST['Login'])){
 <head>
     <title>Login/Logout</title>
     <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="css/style1.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
    
 
@@ -64,8 +64,13 @@ if(isset($_POST['Login'])){
 
 
 <script>
-$(document).ready(function(){
-    $(".wrapper").slideDown(800);
+$(document).ready(function(){  
+    $(".wrapper").slideDown(1000);
+});
+$(document).ready(function(){  
+    $("body, html").animate({
+        opacity: '1'
+    }, 1200);
 });
 </script>
 </html>
