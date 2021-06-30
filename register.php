@@ -63,5 +63,9 @@ if(isset($_POST['Submit'])){
         </form>
     </div>
 </body>
-
+<script>
+$(document).ready(function(){
+    $(".wrapper").slideDown(800);
+});
+</script>
 </html>

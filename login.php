@@ -61,4 +61,11 @@ if(isset($_POST['Login'])){
     </div>
 </body>
 
+
+
+<script>
+$(document).ready(function(){
+    $(".wrapper").slideDown(800);
+});
+</script>
 </html>
