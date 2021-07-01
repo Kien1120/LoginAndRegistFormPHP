@@ -1,6 +1,6 @@
 <?php
-include 'DB_connect.php';
 session_start();
+include 'DB_connect.php';
 if(isset($_POST['Login'])){
     $email = $_POST['mail'];
     $password = md5($_POST['pwd']);
@@ -25,19 +25,6 @@ if(isset($_POST['Login'])){
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="css/style1.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-   
-
-
-
-
-
-
-
-
-
-
-
-
 </head>
 <body>
     <div class="wrapper">
@@ -55,8 +42,13 @@ if(isset($_POST['Login'])){
                 <input name="Login" type="submit" value="Login">
             </div>
 
-            <!--<p>if you don't have an account, <a href="register.php">Register here!</a></p>-->
-            <div class="signup-link">Not a member? <a href="register.php">Signup now</a></div>
+            <div class="forget-pwd"> 
+                <a href="forget_pwd.php">Forget password?</a>
+            </div>
+
+            <div class="signup-link">Not a member? 
+                <a href="register.php">Signup now</a>
+            </div>
         </form>
     </div>
 </body>

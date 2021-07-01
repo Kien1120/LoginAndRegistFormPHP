@@ -10,7 +10,7 @@ html,body{
   height: 100%;
   width: 100%;
   place-items: center;
-  background-image: url("./image/bg.jpg");
+  background-image: url("./image/bg4.jpg");
   opacity: 0;
   background-repeat: no-repeat;
   background-size: cover;
@@ -24,7 +24,7 @@ html,body{
 }
 .wrapper{
   width: 380px;
-  background: rgba(86, 55, 126, 0.6);
+  background: rgba(4, 24, 124, 0.4);
   /*opacity: 1;*/
   border-radius: 15px;
   box-shadow: 0px 15px 20px rgba(0,0,0,0.1);
@@ -41,7 +41,7 @@ html,body{
   background: linear-gradient(-135deg, #c850c0, #4158d0);
 }
 .wrapper form{
-  padding: 10px 30px 50px 30px;
+  padding: 10px 30px 30px 30px;
 }
 .wrapper form .field{
   height: 50px;
@@ -112,7 +112,6 @@ form .field input[type="submit"]{
   color: #fff;
   border: none;
   padding-left: 0;
-  margin-top: -10px;
   font-size: 20px;
   font-weight: 500;
   cursor: pointer;
@@ -122,17 +121,26 @@ form .field input[type="submit"]{
 form .field input[type="submit"]:active{
   transform: scale(0.95);
 }
-form .forget-pwd{
+form .back{
   text-align: center;
+  margin-top: 10px;
 }
-
-form .forget-pwd a{
+form .back a{
   text-decoration: none;
   color: #4294ff;
 
 }
-form .forget-pwd a:hover{
+form .back a:hover{
   text-decoration: underline;
+}
+form .back a:first-child{
+    padding-right: 30px;
+    padding-left: 30px;
+
+}
+form .back a:last-child{
+    padding-right: 30px;
+    padding-left: 30px;
 }
 
 
